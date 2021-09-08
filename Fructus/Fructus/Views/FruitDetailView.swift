@@ -42,6 +42,9 @@ struct FruitDetailView: View {
                         
                         
                         //: Link
+                        SourceLinkView()
+                            .padding(.top, 10)
+                            .padding(.bottom, 40)
                         
                     }
                     .padding(.horizontal, 20)
