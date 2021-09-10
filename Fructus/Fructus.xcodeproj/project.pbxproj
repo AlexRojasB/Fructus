@@ -11,6 +11,7 @@
 		A506A48526952C360085700E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A506A48426952C360085700E /* ContentView.swift */; };
 		A506A48726952C380085700E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A506A48626952C380085700E /* Assets.xcassets */; };
 		A506A48A26952C380085700E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A506A48926952C380085700E /* Preview Assets.xcassets */; };
+		A51C41AC26EAD82F00D85D55 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C41AB26EAD82F00D85D55 /* SettingsRowView.swift */; };
 		A51FAFA926E866F500B0171E /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAFA826E866F500B0171E /* FruitRowView.swift */; };
 		A51FAFAB26E86B4700B0171E /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAFAA26E86B4700B0171E /* FruitDetailView.swift */; };
 		A524275D2697F5D400D3BC50 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A524275C2697F5D400D3BC50 /* FruitCardView.swift */; };
@@ -32,6 +33,7 @@
 		A506A48626952C380085700E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A506A48926952C380085700E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A506A48B26952C380085700E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51C41AB26EAD82F00D85D55 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		A51FAFA826E866F500B0171E /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		A51FAFAA26E86B4700B0171E /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		A524275C2697F5D400D3BC50 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				A5D530BE26E9A14E00D18CDF /* FruitNutrientsView.swift */,
 				A5D530C226E9B23300D18CDF /* SettingsView.swift */,
 				A5D530C426E9BEC900D18CDF /* SettingsLabelView.swift */,
+				A51C41AB26EAD82F00D85D55 /* SettingsRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			files = (
 				A536174326C78D6700DAE77C /* FruitData.swift in Sources */,
 				A5BEACCA26E872C6001C0F88 /* SourceLinkView.swift in Sources */,
+				A51C41AC26EAD82F00D85D55 /* SettingsRowView.swift in Sources */,
 				A524275D2697F5D400D3BC50 /* FruitCardView.swift in Sources */,
 				A51FAFA926E866F500B0171E /* FruitRowView.swift in Sources */,
 				A5D530BF26E9A14E00D18CDF /* FruitNutrientsView.swift in Sources */,

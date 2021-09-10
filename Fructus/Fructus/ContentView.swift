@@ -22,14 +22,15 @@ struct ContentView: View {
                 }
                 }
             }
-        }
-        .navigationBarTitle("Fruits")
+        
+        .navigationTitle("Fruits")
         .navigationBarItems(trailing: Button(action: { isShowingSettings = true}) {
             Image(systemName: "slider.horizontal.3")
         }
         .sheet(isPresented: $isShowingSettings) {
             SettingsView()
         })
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
